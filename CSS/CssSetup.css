@@ -1,0 +1,138 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2-set-2014, 17.32.03
+    Author     : Valentina
+*/
+#riquadro{
+    border-radius: 15px;
+    box-shadow: 4px 1px 14px #777, 0 1px 0 #666 inset;
+    height: 191px;
+    width: 295px;
+    
+}
+
+#tasto{
+ /* position: relative;
+  top: 52px;*/
+margin-top: 88px;
+height: auto;
+
+     
+}
+label{
+    
+    margin-bottom: 8px;
+    padding: 5px 2px;
+    line-height: 36px;
+}
+input{ 
+    background: whitesmoke; /* Colore di sfondo */
+    border: 1px none #323232; /* Bordo */
+    color: #750000; /* Colore del testo */
+    line-height: 18px;
+    font-style:italic;
+    margin-bottom: 8px;
+    padding: 5px 2px;
+
+}
+
+#sx {
+    height: 0px;
+    left: 26px;
+    margin: 0 0 0 220px;
+    padding: 0;
+    position: relative;
+    top: 13px;
+    width: 300px;
+}
+#dx {
+    height: 172px;
+    margin: 22px;
+    padding: 7px;
+    position: relative;
+    right: -452px;
+    top: -14px;
+    width: 550px;
+}
+img#asterisco{
+    width:27px;
+    height:26px;
+    margin-right: 3px;
+    display: inline-block;
+    
+    }
+    
+body {
+    color: #330000;
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    background-image: url('../immagini/sfondo.jpg');
+    background-repeat: no-repeat;
+    background-color: black;
+
+}
+
+
+#header{
+    background-image: url('../immagini/titolo.png');
+    background-repeat: no-repeat;
+    height: 65px;
+    text-align: center;
+    display: block;
+    padding: 18px;
+    background-size:56%;
+    margin-top: 36px;
+    background-position: 50% 50%;
+
+}
+
+
+#contenitore{
+    //background-color: black;
+    border-radius: 15px;
+    display: block;
+    //width: 617px; 
+	padding: 21px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: auto;
+	margin-left: auto; 
+            background: rgba(135, 135, 135, 1);
+            //height: 400px;
+            width: 960px;
+position: relative;
+//margin:0 auto;
+height:auto!important;         
+                  overflow: hidden; 
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    font-weight: bolder;
+    color: #330000;
+    margin: 9px auto;
+    text-align: center;
+    display: block;
+    height: 40px;
+    color: #999;
+
+    border: 1px solid #222;
+    background-color: #111;
+    background-image: linear-gradient(#444, #111);
+    border-radius: 6px;
+    box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
+}
+
+#loading{
+    background-image: url('../immagini/loading.gif');
+    background-repeat: no-repeat;
+    background-size:2%;
+    background-position: 50% 50%;
+    //width:15px;
+    //height: 15px;
+    
+}

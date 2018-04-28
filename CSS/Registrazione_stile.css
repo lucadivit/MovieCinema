@@ -1,0 +1,137 @@
+/* 
+    Created on : 5-mag-2014, 17.03.57
+    Author     : Valentina & Luca
+*/
+
+
+img#asterisco{
+    width:27px;
+    height:26px;
+    margin-right: 3px;
+    display: inline-block;
+    
+    }
+    
+#testo1 {
+    font-size: 12px;
+    margin-bottom: -8px;
+    font-weight: bolder;
+}
+    
+    
+body {
+    color: #330000;
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+     background-color:#e0ca9d ;
+}
+
+#formregistrazione {
+    padding: 0px;
+    width: 916px;
+    display: block;
+}
+
+label{ 
+    float: inherit; //assicura che la label capita dopo il popcorn
+    margin-left: 5px;
+    font-weight: bolder;
+}
+
+input{ 
+    background: whitesmoke; /* Colore di sfondo */
+    border: 1px none #323232; /* Bordo */
+    color: #750000; /* Colore del testo */
+    line-height: 18px;
+    font-style:italic;
+    margin-bottom: 8px;
+    padding: 5px 2px;
+
+}
+#dati{
+    margin-bottom: 16px;
+    margin-top: 13px;
+    margin-left: 50px;
+    font-style: oblique;
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+}
+
+#sex, #cap2, #anim{
+    margin-left: 31px;
+}
+#sex{
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    font-weight: bolder;
+    color: #330000;
+    margin: 9px auto;
+    text-align: center;
+    display: block;
+    height: 40px;
+    color: #999;
+
+    border: 1px solid #222;
+    background-color: #111;
+    background-image: linear-gradient(#444, #111);
+    border-radius: 6px;
+    box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
+}
+
+input[type="reset"] {
+    cursor: pointer;
+    font-weight: bolder;
+    color: #330000;
+    margin: 9px auto;
+    text-align: center;
+    display: unset;
+    height: 40px;
+    color: #999;
+
+    border: 1px solid #222;
+    background-color: #111;
+    background-image: linear-gradient(#444, #111);
+    border-radius: 6px;
+    box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
+}
+
+input[type="button"] {
+    cursor: pointer;
+    font-weight: bolder;
+    color: #330000;
+    margin: 9px auto;
+    text-align: center;
+    display: unset;
+    height: 40px;
+    color: #999;
+
+    border: 1px solid #222;
+    background-color: #111;
+    background-image: linear-gradient(#444, #111);
+    border-radius: 6px;
+    box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
+}
+
+
+fieldset {
+	
+	padding: 0;
+	border: thin dotted;
+        margin-bottom: 10px;
+}
+
+hr{ 
+border: 0; 
+height: 1px; 
+margin: 2em 0 2em;
+}
+
+#risultato1, #risultato2, #risultato3, #risultato4, #risultato5, #risultato6, 
+#risultato7, #risultato8, #risultato9, #risultato10{
+    display:inline-block;
+    margin-left: 15px;
+    
+}

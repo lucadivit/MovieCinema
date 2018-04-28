@@ -1,0 +1,162 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16-lug-2014, 16.27.55
+    Author     : Valentina
+*/
+
+caption{
+    font-size: 32px;
+    text-align: center;
+    font-weight: bolder;
+}
+textarea{
+  border-radius: 0 30px;   
+}
+
+#imm{
+   
+        width: 50%; 
+        
+
+}
+
+table{
+    width: 70%; 
+	padding: 13px;
+		
+	background: #666;
+	text-align:left; 
+	/* part 2 of 2 centering hack */
+	voice-family:inherit;
+    
+    border-radius: 14px;
+}
+
+@media
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
+
+    /* Forza la tabella a non essere più una tabella */
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    /* Nasconde la testata della tabella (senza il dispaly non per una maggiore accessibilità) */
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr { border: 1px solid #ccc; }
+
+    td {
+        /* Per comportarsi come una "riga" della tabella */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+     }
+
+    td:before {
+        /* Per inserire una descrizione ad ogni tabella */
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+
+
+}
+
+#inscommento{
+    margin-top: 10px;
+}
+#commentinseriti{
+    box-shadow: 4px 3px 12px rgba(255, 255, 255, 0.3);
+     padding: 30px;
+    border-radius: 18px;
+    margin-top: 15px;
+    margin-bottom: 24px;
+    line-height: 0px;
+}
+
+#inevidenza{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#filmaggiunto{
+    text-align: center;
+    
+}
+
+
+#usercomm{
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.00);
+   box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.24);
+   font-size: 16px;
+   font-weight: bold;
+
+}
+
+
+#gettitolo{
+    font-size: 18px;
+}
+
+
+
+#left {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 1px;
+	padding: 6px;
+	width: 150px; /* ie5win fudge begins */
+	voice-family:inherit;
+	width: 120px;
+	}
+html>body #left {
+	width: 120px; /* ie5win fudge ends */
+	}
+#middle {
+	margin: 15px 320px 15px 320px;
+	padding: 2px;
+        height: auto;
+        min-height: 196px;
+        overflow:hidden;
+	}
+#right {
+    border-radius: 15px;
+		box-shadow: 4px 1px 14px #777, 0 1px 0 #666 inset;
+    border: 0px solid #ccc;
+    margin: 22px;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 120px;
+	}
+html>body right {
+	width: 120px; /* ie5win fudge ends */
+	}
+
+
+        #locandina{
+             width: 310px;
+    height: 246px;
+    border-radius: 12px 0 0 0;
+        }
+
+
+#centro {
+	margin: 16px 90px;
+    padding: 0px;
+	}

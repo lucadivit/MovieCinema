@@ -1,0 +1,46 @@
+
+
+.slideimg{
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 960px;
+    position: relative;
+    box-shadow: 0px 0px 6px 10px black;
+    border-radius: 15px 15px 15px 15px;
+}
+.slidetxt{
+    background-color: #000000;
+    
+    background-position: center;
+    background-size: cover;
+    color: ghostwhite;
+    text-indent: 30px;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 22px;
+    height: 50px;
+    width: 600px;
+    position: relative;
+    left: -181px;
+    top: -450px;
+    margin: 0px auto;
+    opacity: 0.7;
+    border-radius: 0px 15px 0px 15px; 
+}
+.star{
+    background-position: center;
+    background-size: cover;
+    height: 40px;
+    width: 175px;
+    position: relative;
+    left: 408px;
+    top: -494px;
+}
+.delta
+{
+    position: relative;
+    top: -450px;
+    display: none;
+}
+

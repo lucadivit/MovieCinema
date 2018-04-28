@@ -1,0 +1,102 @@
+/* 
+    Created on : 4-lug-2014, 18.01.42
+    Author     : Valentina & Luca
+
+
+body{
+    background-color: #CD853F;
+    font-family: verdana;
+    font-size: 11px;
+    color: black;
+    white-space:nowrap;
+     alignment-adjust:middle;
+}
+
+#menu {
+    margin:0;
+    padding:0;
+    list-style:none;
+    
+}   
+ 
+#menu li {
+    
+    float:left;
+    display:block;
+    width:130px;
+    background:#DEB887;
+    filter:alpha(opacity=40); // opacity IE 
+    -moz-opacity:0.4; // opacity Mozilla 
+    opacity: 0.4; // opacity CSS3 
+    position:relative;
+    z-index:500;
+    margin:0 1px;
+    -webkit-transition: all 0.1s ease-in-out;
+        -moz-transition: all 0.1s ease-in-out;
+        -ms-transition: all 0.1s ease-in-out;
+        -o-transition: all 0.1s ease-in-out;
+        transition: all 0.1s ease-in-out;
+     
+}
+#menu li.first {
+   
+        -moz-border-radius:5px 0 0 5px;
+        -webkit-border-radius:5px 0 0 5px;
+    border-radius:5px 0 0 5px;
+    }
+#menu li.last {
+
+        -webkit-border-radius:0 5px 5px 0;
+    -moz-border-radius:0 5px 5px 0;
+        border-radius:0 5px 5px 0;
+    }
+#menu li li.last {
+
+        -webkit-border-radius:0 0 5px 5px;
+    -moz-border-radius:0 0 5px 5px;
+        border-radius:0 0 5px 5px;
+    }
+
+#menu li a {
+
+    display:block;
+    padding:8px 5px 0 5px;
+    font-weight:700;
+    height:23px;
+    text-decoration: none;
+    text-align:center;
+    color:black;
+}
+ 
+#menu li li:hover {
+
+    -webkit-transform: translate(+10px,0);
+    }
+
+#menu ul {
+
+    position:absolute;
+    left:0;
+    display:none;
+    margin:0 0 0 -1px;
+    padding:0;
+    list-style:none;
+}
+#menu ul li {
+
+    width:130px;
+    float:left;
+    border-top:1px solid #fff;
+}
+#menu ul a { 
+
+    display:block;
+    height:auto;
+    padding: 8px 5px;
+    color:black;
+}
+*html #menu ul {
+
+    margin:0 0 0 -2px;
+}
+*/
